@@ -73,9 +73,18 @@ nav a {
 .img-main {
 	width: 100%;
 	height: auto;
+	min-width: 15rem;
+	min-height: auto;
 	padding: .6rem 0 .2rem;
 }
 
-.main-contant p, {
+.main-contant p {
+	color: #000000;
 	font-size: 1rem;
+}
+
+.main-contant a {	
+	font-weight: bold;
+	color: #1B357E;
+	font-size: 1.2rem;
 }
