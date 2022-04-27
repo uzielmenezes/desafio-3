@@ -21,7 +21,7 @@ header {
 	width: 100%;
 	margin: 0 auto;
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -32,7 +32,7 @@ header {
 }
 
 .logo-header {
-	width: 10%;
+	width: 15%;
 	height: auto;
 	min-width: 6rem;
 	min-height: auto;
@@ -42,4 +42,23 @@ nav {
 	text-align: center;
 	width: 100%;
 	margin: 0 auto;
+	padding-right: 15%;
+}
+
+.flex-list {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+nav li {
+	margin-left: 1.6rem;
+}
+
+nav a {
+	color: #1351d8;
+	font-weight: bold;
+	font-size: 1.3rem;
+	text-decoration: none;
 }
