@@ -19,40 +19,27 @@ header {
 
 .flex-header {
 	width: 100%;
+	margin: 0 auto;
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.logo-header {
-	position: relative;
-	top: 0;
-	width: 10%;
-	height: auto;
-	left: 0;
+.item {
 	padding: .5rem;
 	margin: .5rem;
+}
+
+.logo-header {
+	width: 10%;
+	height: auto;
 	min-width: 6rem;
-	min-height: 3rem;
+	min-height: auto;
 }
 
 nav {
-
-}
-
-.flex-list {
-	width: 22.61rem;
-	height: auto;
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	align-items: ce
-}
-
-nav a {
-	color: #1351d8;
-	font-weight: bold;
-	font-size: 1.6rem;
-	text-decoration: none;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
 }
