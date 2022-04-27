@@ -4,7 +4,8 @@
 	border: 0;
 	box-sizing: border-box;
 	font-family: arial;
-	list-style-type: none;	
+	list-style-type: none;
+	text-decoration: none;
 }
 
 html {
@@ -63,9 +64,18 @@ nav a {
 	text-decoration: none;
 }
 
-.img-main {
-	display: block;
+.main-contant {
 	width: 80%;
-	height: auto;
 	margin: 0 auto;
-	padding: .6rem 0;
+	text-align: center;
+}
+
+.img-main {
+	width: 100%;
+	height: auto;
+	padding: .6rem 0 .2rem;
+}
+
+.main-contant p, {
+	font-size: 1rem;
+}
