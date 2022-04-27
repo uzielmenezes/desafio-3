@@ -88,3 +88,13 @@ nav a {
 	color: #1B357E;
 	font-size: 1.1rem;
 }
+
+.flex-footer {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	background-color: #1B357E;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
