@@ -90,6 +90,7 @@ nav a {
 }
 
 .flex-footer {
+	padding: 1rem;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
@@ -100,3 +101,23 @@ nav a {
 	justify-content: space-between;
 	align-items: center;
 }
+
+.flex-social {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: flex-start;
+	gap: .2rem;
+}
+
+.social-items {
+	height: auto;
+	color: #FFFFFF;
+	font-size: .8rem;
+}
+
+.social-img {
+	width: 30%;
+	height: auto;
+}
+
