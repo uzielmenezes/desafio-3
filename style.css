@@ -7,17 +7,14 @@
 	list-style-type: none;
 	text-decoration: none;
 }
-
 html {
 	font-size: 62.5%;
 }
-
 header {
 	background-color: #FFFFFF;
 	padding: .5rem 0;
 	box-shadow: 0 .1em #DCDCDC;
 }
-
 .flex-header {
 	width: 100%;
 	margin: 0 auto;
@@ -26,50 +23,42 @@ header {
 	justify-content: space-between;
 	align-items: center;
 }
-
 .item {
 	padding: .5rem;
 	margin: .5rem;
 }
-
 .logo-header {
 	width: 15%;
 	height: auto;
 	min-width: 6rem;
 	min-height: auto;
 }
-
 nav {
 	text-align: center;
 	width: 100%;
 	margin: 0 auto;
 	padding-right: 15%;
 }
-
 .flex-list {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
 }
-
 nav li {
 	margin-left: 1.6rem;
 }
-
 nav a {
 	color: #1351d8;
 	font-weight: bold;
 	font-size: 1.3rem;
 	text-decoration: none;
 }
-
 .main-contant {
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
 }
-
 #img-main {
 	width: 100%;
 	height: auto;
@@ -77,18 +66,15 @@ nav a {
 	min-height: auto;
 	padding: .6rem 0 .2rem;
 }
-
 .main-contant p {
 	color: #000000;
 	font-size: 1rem;
 }
-
 .main-contant a {	
 	font-weight: bold;
 	color: #1B357E;
 	font-size: 1.1rem;
 }
-
 .flex-footer {
 	padding: 1rem;
 	position: fixed;
@@ -101,7 +87,6 @@ nav a {
 	justify-content: space-between;
 	align-items: center;
 }
-
 .flex-social {
 	display: flex;
 	flex-flow: row wrap;
@@ -109,13 +94,11 @@ nav a {
 	justify-content: flex-start;
 	gap: .2rem;
 }
-
 .social-items {
 	height: auto;
 	color: #FFFFFF;
 	font-size: .8rem;
 }
-
 .social-img {
 	width: 10%;
 	height: auto;
