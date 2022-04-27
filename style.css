@@ -8,4 +8,20 @@
 
 html {
 	font-size: 62.5%;
-}	
+}
+
+header {
+	background-color: #FFFFFF;
+	padding: 2rem 0;
+	box-shadow: 0 .1em #DCDCDC;
+}
+
+.header-content {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.logo-header {
+	width: 20%;
+	height: auto;
+}
