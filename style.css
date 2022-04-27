@@ -4,7 +4,7 @@
 	border: 0;
 	box-sizing: border-box;
 	font-family: arial;
-	list-style-type: none;
+	list-style-type: none;	
 }
 
 html {
@@ -13,16 +13,46 @@ html {
 
 header {
 	background-color: #FFFFFF;
-	padding: 2rem 0;
+	padding: .5rem 0;
 	box-shadow: 0 .1em #DCDCDC;
 }
 
-.header-content {
+.flex-header {
 	width: 100%;
-	margin: 0 auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .logo-header {
-	width: 20%;
+	position: relative;
+	top: 0;
+	width: 10%;
 	height: auto;
+	left: 0;
+	padding: .5rem;
+	margin: .5rem;
+	min-width: 6rem;
+	min-height: 3rem;
+}
+
+nav {
+
+}
+
+.flex-list {
+	width: 22.61rem;
+	height: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: ce
+}
+
+nav a {
+	color: #1351d8;
+	font-weight: bold;
+	font-size: 1.6rem;
+	text-decoration: none;
 }
