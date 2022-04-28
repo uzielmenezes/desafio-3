@@ -65,6 +65,10 @@ nav a {
 	width: 80%;
 	padding-top: .6rem;
 }
+.flex-main img {
+	width: 100%;
+}
+
 .flex-main p {
 	color: #000000;
 	font-size: 1rem;
