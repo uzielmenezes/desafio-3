@@ -119,11 +119,16 @@ nav a {
 }
 
 @media screen and (max-width: 480px) {
-	.flex-header, .flex-list, .flex-main, .flex-footer, .flex-social {
+	body, html, main, .flex-header, .flex-list, .flex-main, .flex-footer, .flex-social {
 		width: auto;
 		height: auto;
 	}
 	.flex-footer {
 		position: static;
+		margin-top: .5rem;
+	}
+	.flex-main img {
+		width: 100%;
+		height: 80vh;
 	}
 }
