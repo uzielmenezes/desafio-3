@@ -117,3 +117,13 @@ nav a {
 	width: 100%;
 	min-width: 3rem;
 }
+
+@media screen and (max-width: 480px) {
+	.flex-header, .flex-list, .flex-main, .flex-footer, .flex-social {
+		width: auto;
+		height: auto;
+	}
+	.flex-footer {
+		position: static;
+	}
+}
