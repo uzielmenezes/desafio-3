@@ -66,7 +66,6 @@ nav a {
    	height: 100%;
    	padding-top: .6rem;
 }
-
 .flex-main p {
 	width: 80%;
 	color: #000000;
@@ -117,7 +116,7 @@ nav a {
 	width: 100%;
 	min-width: 3.5rem;
 }
-
+/* Design para mobiles. */
 @media screen and (max-width: 480px) {
 	body, html, main, .flex-header, .flex-list, .flex-main, .flex-footer, .flex-social {
 		width: auto;
@@ -133,8 +132,6 @@ nav a {
 @media screen and (min-height: 1100px) {
 	body, html, main, .flex-header, .flex-list, .flex-main, .flex-footer, .flex-social {
 		width: auto;
-	}
-	
 	}
 	.flex-footer {
 		position: static;
