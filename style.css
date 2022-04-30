@@ -59,7 +59,7 @@ nav a {
 }
 #img-main {
 	width: 80%;
-	height: 88.6vh;
+	height: 73.5vh;
 }
 .flex-main img {
     width: 100%;
@@ -123,6 +123,7 @@ nav a {
 	}
 	#img-main {
 		width: 98%;
+		height: 88.6vh;
 	}
 	.flex-footer {
 		position: static;
@@ -132,6 +133,9 @@ nav a {
 @media screen and (min-height: 1100px) {
 	body, html, main, .flex-header, .flex-list, .flex-main, .flex-footer, .flex-social {
 		width: auto;
+	}
+	#img-main {
+		height: 88.6vh;
 	}
 	.flex-footer {
 		position: static;
