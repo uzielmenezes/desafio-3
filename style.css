@@ -87,7 +87,7 @@ nav a {
 	margin: 0 auto;
 	display: flex;
 	background-color: #1B357E;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -145,4 +145,9 @@ nav a {
 		width: 100%;
 		height: 86vh;
 	}
+}
+@media screen and (max-width: 480px) {
+	.flex-list {
+		flex-flow: column wrap;
+	} 
 }
