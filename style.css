@@ -119,30 +119,59 @@ nav a {
 /* CSS da main do lançamento */
 .flex-lancamento {
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	border: solid red;
+	flex-flow: column wrap;
+	align-items: center;
 }
 .flex-video {
 	width: 100%;
+	height: 35vh;
 }
-iframe {
+.flex-video iframe {
+	width: 100%;
+	height: 100%;
+	padding-top: .6rem;
+}
+.flex-vehicles {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.vehicles-item {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+}
+.flex-table {
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-content: center;
+	font-style: italic;
+	font-size: 1.2rem;
+	gap: 2rem;
+}
+.checkbox {
+	width: 8%;
+}
+.checkbox input {
 	width: 100%;
 	height: 100%;
 }
-.flex-vehicles {
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: center;
-	border: solid green;
-	width: 100%;
+.vehicles-text h3 {
+	color: #1351d8;
 }
-.vehicles-img {
-	width: 100%;	
-}
-.flex-table {
-	display: flex;
-	flex-flow: row nowrap;
+.lancamento-button {
+  color: #FFFFFF;
+  background-color: #1351d8; 
+  padding: 1rem 3rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin: 2rem 0 0;
+  border-radius: 1.5rem;
+  cursor: pointer;
 }
 /* Design para mobiles. */
 @media screen and (max-width: 900px) {
