@@ -116,6 +116,20 @@ nav a {
 	width: 100%;
 	min-width: 3.5rem;
 }
+/* CSS da main do lançamento */
+.flex-lancamento {
+
+}
+.flex-video {
+
+}
+.flex-vehicles {
+
+}
+.flex-table {
+	
+}
+
 /* Design para mobiles. */
 @media screen and (max-width: 900px) {
 	body, html, main, .flex-header, .flex-list, .flex-main, .flex-footer, .flex-social {
