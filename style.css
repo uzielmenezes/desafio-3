@@ -132,13 +132,18 @@ iframe {
 }
 .flex-vehicles {
 	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
 	border: solid green;
-
+	width: 100%;
+}
+.vehicles-img {
+	width: 100%;	
 }
 .flex-table {
-
+	display: flex;
+	flex-flow: row nowrap;
 }
-
 /* Design para mobiles. */
 @media screen and (max-width: 900px) {
 	body, html, main, .flex-header, .flex-list, .flex-main, .flex-footer, .flex-social {
