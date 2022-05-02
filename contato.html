@@ -24,7 +24,18 @@
 			<div class="flex-contact">
 				<img class="vehicles-img" src="img/xls 2.2 diesel.jpg">
 				<form>
-					<h2>Sobre Você</h2>
+					<h2>Sobre Você</h2><br>
+					<input type="text" id="name" class="input-padrao" required placeholder="NOME*">
+					<input type="email" id="email" class="input-padrao" required placeholder="EMAIL*">
+					<input type="text" name="cpf" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" placeholder="CPF/CNPJ*">
+					<input type="text" id="surname" class="input-padrao" required placeholder="SOBRENOME*">
+					<input type="tel" id="tel" class="input-padrao" required placeholder="TELEFONE*">
+					<select required>
+						<option value="" disabled selected hidden>COMO DESEJA SER CONTACTADO</option>
+						<option value="0">TELEFONE</option>
+						<option value="1">EMAIL</option>
+					</select>
+					<textarea cols="70" rows="10" id="mensagem" required></textarea>
 				</form>
 			</div>			
 		</main>
