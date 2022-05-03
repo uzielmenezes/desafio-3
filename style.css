@@ -188,13 +188,12 @@ table th {
 /* CSS da main do lançamento */
 .flex-contact {
 	width: 100%;
-	height: 100%;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: flex-start;
 	align-content: center;
-	margin: 2rem;
+	margin: 2rem auto;
 	gap: 2.5rem;
 }
 .form-flex{
@@ -232,7 +231,7 @@ form input, form textarea {
 	background-color: #0000CD;
 }
 /* Design para mobiles. */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
 	body, html, main, .flex-header, .flex-list, .flex-main, .flex-footer, .flex-social {
 		width: auto;
 	}
