@@ -172,7 +172,7 @@ table th {
 .table-text h3 {
 	color: #1351d8;
 }
-.lancamento-button {
+#lancamento-button {
   color: #FFFFFF;
   background-color: #1351d8; 
   padding: 1rem 3rem;
@@ -183,7 +183,7 @@ table th {
   border-radius: 1.5rem;
   transform: .1s all;
 }
-.lancamento-button:hover {
+#lancamento-button:hover {
 	transform: scale(1.02);
 	cursor: pointer;
 	background-color: #0000CD;
