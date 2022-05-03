@@ -22,20 +22,23 @@
 		</header>
 		<main>
 			<div class="flex-contact">
-				<img class="vehicles-img" src="img/xls 2.2 diesel.jpg">
-				<form>
+				<img class="contact-item" src="img/xls 2.2 diesel.jpg">
+				<form class="form-flex">
+					<div>
 					<h2>Sobre Você</h2><br>
-					<input type="text" id="name" class="input-padrao" required placeholder="NOME*">
-					<input type="email" id="email" class="input-padrao" required placeholder="EMAIL*">
-					<input type="text" name="cpf" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" placeholder="CPF/CNPJ*">
-					<input type="text" id="surname" class="input-padrao" required placeholder="SOBRENOME*">
-					<input type="tel" id="tel" class="input-padrao" required placeholder="TELEFONE*">
-					<select required>
+					<input type="text" id="name" class="contact-input" required placeholder="NOME*">
+					<input type="email" id="email" class="contact-input" required placeholder="EMAIL*">
+					<input type="text" name="cpf" pattern="{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" class="contact-input" placeholder="CPF/CNPJ*">
+					<input type="text" id="surname" class="contact-input" required placeholder="SOBRENOME*">
+					<input type="tel" id="tel" class="contact-input" required placeholder="TELEFONE*">
+					<select required class="contact-input">
 						<option value="" disabled selected hidden>COMO DESEJA SER CONTACTADO</option>
 						<option value="0">TELEFONE</option>
 						<option value="1">EMAIL</option>
 					</select>
-					<textarea cols="70" rows="10" id="mensagem" required></textarea>
+					<textarea class="contact-input" cols="30" rows="8" id="mensagem" required></textarea>
+					</div>
+					<input type="submit" value="Enviar" class= "contact-button">
 				</form>
 			</div>			
 		</main>
