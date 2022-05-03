@@ -62,23 +62,17 @@ nav a:hover {
 	color:	#0000CD;
 }
 .flex-main {
-	width: 100%;
+	width: 80%;
+	margin: .6rem auto;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	gap: .5rem;
 }
-#img-main {
-	width: 80%;
-	height: 73.5vh;
-}
 .flex-main img {
-    width: 100%;
-   	height: 100%;
-   	padding-top: .6rem;
+	width: 100%;
 }
 .flex-main p {
-	width: 80%;
 	color: #000000;
 	font-size: 1.4rem;
 	text-align: center;
@@ -239,26 +233,20 @@ form input, form textarea {
 	background-color: #0000CD;
 }
 /* Design para mobiles. */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1200px) {
 	body, html, main, .flex-header, .flex-list, .flex-main, .flex-footer, .flex-social {
 		width: auto;
 	}
 	.flex-list {
 		flex-flow: column wrap;
 	}
+	.flex-main {
+		height: 100vh;
+		flex-flow: column wrap;
+		justify-content: center;
+	}
 	.flex-main p {
-		text-align: justify;
+		text-align: center;
 	} 
-	#img-main {
-		width: 98%;
-		height: 88.6vh;
-	}
-}
-@media screen and (min-height: 1100px) {
-	body, html, main, .flex-header, .flex-list, .flex-main, .flex-footer, .flex-social {
-		width: auto;
-	}
-	#img-main {
-		height: 88.6vh;
-	}
+	
 }
