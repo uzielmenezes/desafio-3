@@ -19,6 +19,7 @@ body {
 	height: 100%;
 	margin-bottom: 6rem;
 }
+/* CSS do header e footer das 3 páginas e main da index */
 .flex-header {
 	width: 100%;
 	margin: 0 auto;
@@ -187,7 +188,7 @@ table th {
 	cursor: pointer;
 	background-color: #0000CD;
 }
-/* CSS da main do lançamento */
+/* CSS da main do contato */
 .flex-contact {
 	width: 100%;
 	display: flex;
@@ -214,7 +215,7 @@ form input, form textarea {
 	margin: .2rem;
 	box-shadow: .15rem .1rem .2rem #DCDCDC;
 }
-.contact-button {
+#contact-button {
   width: 70%;	
   color: #FFFFFF;
   background-color: #1351d8; 
@@ -227,21 +228,21 @@ form input, form textarea {
   transform: .1s all;
   align-self: flex-end;
 }
-.contact-button:hover {
+#contact-button:hover {
 	transform: scale(1.02);
 	cursor: pointer;
 	background-color: #0000CD;
 }
 /* Design para mobiles. */
-@media screen and (max-width: 1200px) {
-	body, html, main, .flex-header, .flex-list, .flex-main, .flex-footer, .flex-social {
+@media screen and (max-width: 900px) {
+	body, html, main, .flex-header, .flex-list, .flex-footer, .flex-social {
 		width: auto;
 	}
 	.flex-list {
 		flex-flow: column wrap;
 	}
 	.flex-main {
-		height: 100vh;
+		height: 90vh;
 		flex-flow: column wrap;
 		justify-content: center;
 	}
