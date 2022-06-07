@@ -37,9 +37,9 @@ class Carousel {
 
 // cria instâncias da classe Carousel e os empurra para o array arr
 let arr = [];
-arr.push(new Carousel('img/imagem_1.jpg', 'Esta é a nova Ford Ranger 2022. Verifique novidades.', 'lancamento.html', 'Imagem Nova Ford Ranger 2022')); 
+arr.push(new Carousel('img/imagem_1.jpg', 'Esta é a nova Ford Ranger 2023. Verifique novidades.', 'lancamento.html', 'Imagem Nova Ford Ranger 2022')); 
 arr.push(new Carousel('img/imagem_2.jpg', 'Ford a nossa história.', '#', 'Imagem História Ford'));
-arr.push(new Carousel('img/imagem_3.jpg', 'Nova Ford Bronco Sport 2022.', 'lancamento.html', 'Imagem Nova Ford Bronco Sport 2022'));
+arr.push(new Carousel('img/imagem_3.jpg', 'Nova Ford Bronco Sport 2023.', 'lancamento.html', 'Imagem Nova Ford Bronco Sport 2022'));
 
 // busca a div carousel, definida no HTML
 let carousel = document.querySelector('#carousel');
