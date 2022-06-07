@@ -48,7 +48,7 @@ function ShowCompare() {
         alert("Por favor, marque 2 carros para apresentar a comparação.");
         return;
     } else if(carArr.length == 3) {
-        alert('Porfavor, compare de 2 carros por vez.')
+        alert('Porfavor, compare 2 carros por vez.')
         throw new Error('Comparação somente de 2 em 2.')
     }
 
