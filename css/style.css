@@ -176,7 +176,7 @@ main {
 .table-text h3 {
 	color: #1351d8;
 }
-#lancamento-button {
+button {
   color: #FFFFFF;
   background-color: #1351d8; 
   padding: 1rem 3rem;
@@ -187,7 +187,7 @@ main {
   border-radius: 1.5rem;
   transform: .1s all;
 }
-#lancamento-button:hover {
+button:hover {
 	transform: scale(1.02);
 	cursor: pointer;
 	background-color: #0000CD;
@@ -200,10 +200,15 @@ main {
     margin-top: 2vh;
     margin-bottom: 1rem;
 }
-#compare-table tr, #comparetable td {
+#compare-table tr {
 	text-align: left;
     vertical-align: middle;
-    padding: .5rem;
+	font-size: 1.2rem;
+}
+.compare-title {
+	font-weight: bold;
+	font-size: 1.4rem;
+	padding: .35rem;
 }
 #compare-table tr:nth-child(1) {
 	width: 40%;

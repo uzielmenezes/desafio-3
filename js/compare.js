@@ -65,7 +65,7 @@ function UpdateCompareTable() {
 
         for(let i = 0; i < carArr.length; i++) {
             
-            document.getElementById('image_'+i).setAttribute('src', carArr[i].image)
+            document.getElementById('compare_image_'+i).setAttribute('src', carArr[i].image)
             document.getElementById('compare_modelo_'+i).innerHTML = 
             carArr[i].nome;
             document.getElementById('compare_alturacacamba_'+i).innerHTML = 
