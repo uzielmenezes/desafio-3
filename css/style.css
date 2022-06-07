@@ -192,6 +192,15 @@ main {
 	cursor: pointer;
 	background-color: #0000CD;
 }
+#compare-table {
+	border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    margin-bottom: 1rem;
+}
+
 /* CSS da main do contato */
 .flex-contact {
 	width: 100%;
