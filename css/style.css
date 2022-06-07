@@ -192,7 +192,7 @@ button:hover {
 	cursor: pointer;
 	background-color: #0000CD;
 }
-#compare-table {
+#c-table {
 	border-collapse: collapse;
     width: 80%;
     margin-left: auto;
@@ -200,7 +200,7 @@ button:hover {
     margin-top: 2vh;
     margin-bottom: 1rem;
 }
-#compare-table tr {
+#c-table tr {
 	text-align: left;
     vertical-align: middle;
 	font-size: 1.2rem;
@@ -210,10 +210,10 @@ button:hover {
 	font-size: 1.4rem;
 	padding: .35rem;
 }
-#compare-table tr:nth-child(1) {
+#c-table tr:nth-child(1) {
 	width: 40%;
 }
-#compare-table tr:nth-child(even) {background-color: #F2F2F2;}
+#c-table tr:nth-child(even) {background-color: #F2F2F2;}
 
 div#compare {
     position: absolute;
