@@ -6,6 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Ford - Lançamento</title>
 		<link rel="stylesheet" href="css/style.css">
+		<script src="js/compare.js"></script>
 	</head>
 	<body>
 		<header>
@@ -30,7 +31,7 @@
 						<img class="vehicles-img" src="img/XL Cabine.jpg" alt="Foto do XL Cabine Simples">
 						<table class="v-table">
 							<tr>
-								<th><input type="checkbox"></th>
+								<th><input type="checkbox" value="car1" onchange="SetCarToCompare(this, new Car('XL Cabine Simples 2.2 Diesel 4X4 MT 2022', 183850, 511, 1821, 232, 1234, 2.2, 160, 1420, 'Aço Estampado 16', 'img/XL Cabine.jpg'))"></th>
 								<th class="table-text"><h3>XL Cabine Simples 2.2 Diesel 4x4 MT 2023</h3><p>A partir de R$ 218.290</p></th>
 								<th><a href="#"><img src="img/info.png" alt="Ícone de Informação"></a></th>	
 							</tr>
@@ -40,7 +41,7 @@
 						<img class="vehicles-img" src="img/xls 2.2 diesel.jpg" alt="Foto do XLS 2.2 Diesel">
 						<table class="v-table">
 							<tr>
-								<th><input type="checkbox"></th>
+								<th><input type="checkbox" value="car2" onchange="SetCarToCompare(this, new Car('XLS 2.2 Diesel 4X4 AT 2022', 220690, 511, 1821, 232, 1076, 2.2, 160, 1180, 'Aço Estampado 16', 'img/xls 2.2 diesel.jpg'))"></th>
 								<th class="table-text"><h3>XLS 2.2 Diesel 4x4 AT 2023</h3><p>A partir de R$ 251.590</p></th>
 								<th><a href="#"><img src="img/info.png" alt="Ícone de Informação"></a></th>	
 							</tr>
@@ -50,7 +51,7 @@
 						<img class="vehicles-img" src="img/storm.jpg" alt="Foto do Storm 3.2 Diesel">
 						<table class="v-table">
 							<tr>
-								<th><input type="checkbox"></th>
+								<th><input type="checkbox" value="car3" onchange="SetCarToCompare(this, new Car('Storm 3.2 Diesel 4X4 AT 2022', 222790, 511, 1821, 232, 1040, 3.2, 200, 1180, 'Liga Leve 17', 'img/storm.jpg'))"></th>
 								<th class="table-text"><h3>Storm 3.2 Diesel 4x4 AT 2023</h3><p>A partir de R$ R$ 255.090</p></th>
 								<th><a href="#"><img src="img/info.png" alt="Ícone de Informação"></a></th>	
 							</tr>
@@ -58,7 +59,7 @@
 					</div>					
 				</div>
 				<div class="flex-button">
-					<button id="lancamento-button">Comparar Carros</button>
+					<button type="button" id="lancamento-button" onclick="ShowCompare()">Comparar Carros</button>
 				</div>			
 			</div>
 		</main>
