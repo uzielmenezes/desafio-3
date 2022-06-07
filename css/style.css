@@ -161,12 +161,12 @@ main {
 	flex-flow: column nowrap;
 	align-items: center;
 }
-table input {
+.v-table input {
 	width: 2.5rem;
 	height: 2.5rem;
 	transition: .01s;
 }
-table th {
+.v-table th {
 	padding-left: 1rem;
 }
 .table-text {
