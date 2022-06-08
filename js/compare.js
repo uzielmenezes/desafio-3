@@ -3,8 +3,7 @@
 let carArr = [];
 
 class Car {
-   
-
+    
     constructor(nome, preco, alturaCacamba, alturaVeiculo, alturaSolo, capacidadeCarga, motor, potencia, volumeCacamba, roda, image){
         this.nome = nome;
         this.preco = preco;
@@ -29,6 +28,7 @@ function GetCarArrPosition(arr, carClass) {
     return -1;
 }
 
+// adiciona e remove uma classe de acordo com a marcação do checkbox
 function SetCarToCompare(el, carClass) {
    
     if(carClass instanceof Car){       
@@ -44,6 +44,7 @@ function SetCarToCompare(el, carClass) {
     }
 }
 
+// se 2 checkbox estiverem marcados, ilustra a comparação
 function ShowCompare() {
     if(carArr.length < 2) {
         alert("Por favor, marque 2 carros para apresentar a comparação.");
@@ -57,10 +58,12 @@ function ShowCompare() {
     document.getElementById("compare").style.display = "block";
 }
 
+// fecha a comparação
 function HideCompare(){
     document.getElementById("compare").style.display = "none";
 }
 
+// atualiza os valores da tabela de comparação de acordo com os objetos selecionados
 function UpdateCompareTable() {
     if(carArr.length > 1) {         
 
