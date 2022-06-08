@@ -35,7 +35,8 @@ function SetCarToCompare(el, carClass) {
         if(el.checked){
             carArr.push(carClass);           
         } else {
-            carArr.pop();
+            let x = GetCarArrPosition(carArr, carClass)
+            carArr.splice(x, 1);
         }
 
     } else {
