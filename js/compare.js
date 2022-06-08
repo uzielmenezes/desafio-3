@@ -1,4 +1,3 @@
-
 //car
 let carArr = [];
 

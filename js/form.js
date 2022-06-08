@@ -13,8 +13,8 @@ class Contato {
     
 }
 
+// envia os dados do cliente para atribuição de uma variável data
 function Post(form) {
-
     
     let data = new Contato(form.elements.namedItem("nome").value,
             form.elements.namedItem("sobrenome").value, 
@@ -29,6 +29,7 @@ function Post(form) {
 
 }
 
+// Informa ao usuário sobre o envio dos dados do formulário
 function Enviar() {
 
     var nome = document.getElementById('name');
