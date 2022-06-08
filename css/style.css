@@ -19,7 +19,7 @@ body {
 	height: 100%;
 	margin-bottom: 6rem;
 }
-/* CSS do header e footer das 3 páginas e main da index */
+/* CSS do header e footer das 3 páginas */
 .flex-header {
 	width: 100%;
 	margin: 0 auto;
@@ -62,37 +62,7 @@ nav a:hover {
 	cursor: pointer;
 	color:	#0000CD;
 }
-main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-}
-#carousel {
-	width: 100%;
-	position: relative;
-	
-}
-.flex-main.selected {
-	position: absolute;
-	left: 0;
-	right: 0;
-	width: 80%;
-	min-width: 300px;
-	margin: .6rem auto;
-}
-.unselected {
-	display: none;
-}
-.flex-main img {
-	width: 100%;
-}
-.flex-main p {
-	color: #000000;
-	font-size: 1.4rem;
-	text-align: center;
-	font-style: italic;
-}
+/* css do rodapé */
 .flex-footer {
 	padding: 1rem 2rem;
 	position: fixed;
@@ -134,150 +104,7 @@ main {
 	width: 100%;
 	min-width: 3.5rem;
 }
-/* CSS da main do lançamento */
-.flex-lancamento {
-	width: 100%;
-	margin: 0 auto;	
-	display: flex;
-	flex-flow: column nowrap;
-	align-items: center;
-}
-.flex-video {
-	width: 100%;
-}
-.flex-video iframe {
-	width: 100%;
-	height: 420px;
-	padding-top: .6rem;
-}
-.flex-vehicles {
-	width: 100%;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-}
-.vehicles-items {
-	display: flex;
-	flex-flow: column nowrap;
-	align-items: center;
-}
-.v-table input {
-	width: 2.5rem;
-	height: 2.5rem;
-	transition: .01s;
-}
-.v-table th {
-	padding-left: 1rem;
-}
-.table-text {
-	text-align: justify;
-	font-size: 1.1rem;
-}
-.table-text h3 {
-	color: #1351d8;
-}
-button {
-  color: #FFFFFF;
-  background-color: #1351d8; 
-  padding: 1rem 3rem;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.6rem;
-  margin: 2rem 0 0;
-  border-radius: 1.5rem;
-  transform: .1s all;
-}
-button:hover {
-	transform: scale(1.02);
-	cursor: pointer;
-	background-color: #0000CD;
-}
-#c-table {
-	border-collapse: collapse;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2vh;
-    margin-bottom: 1rem;
-}
-#c-table tr {
-	text-align: left;
-    vertical-align: middle;
-	font-size: 1.2rem;
-}
-.compare-title {
-	font-weight: bold;
-	font-size: 1.4rem;
-	padding: .35rem;
-}
-#c-table tr:nth-child(1) {
-	width: 40%;
-}
-#c-table tr:nth-child(even) {background-color: #F2F2F2;}
 
-div#compare {
-    position: absolute;
-    display: none;
-    width: 100%;
-    max-width: 80rem;
-    min-width: 40rem;
-    height: 100%;
-    max-height: 68rem;
-    min-height: 35rem;
-    background: #fff;
-    top: 100%;
-    transform: translateY(-73%);
-    left: calc(100% - 80vw);
-    border-radius: 10px;
-    padding: 1rem;
-    -webkit-box-shadow: .1rem .1rem .6rem 0rem rgb(0 0 0 / 34%);
-    box-shadow: .1rem .1rem .6rem 0rem rgb(0 0 0 / 34%);
-}
-/* CSS da main do contato */
-.flex-contact {
-	width: 100%;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: flex-start;
-	align-content: center;
-	margin: 2rem auto;
-	gap: 2.5rem;
-}
-.form-flex{
-	display: flex;
-	flex-flow: column nowrap;
-}
-
-form input, form textarea {
-	display: block;
-}
-.contact-input {
-	width: 100%;
-	border: .05rem solid #DCDCDC;
-	border-radius: 1rem;
-	padding: .8rem;
-	margin: .2rem;
-	box-shadow: .15rem .1rem .2rem #DCDCDC;
-}
-#contact-button {
-  width: 70%;	
-  color: #FFFFFF;
-  background-color: #1351d8; 
-  padding: 1rem 3rem;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.6rem;
-  margin: 2rem 0 0;
-  border-radius: 1.5rem;
-  transform: .1s all;
-  align-self: flex-end;
-}
-#contact-button:hover {
-	transform: scale(1.02);
-	cursor: pointer;
-	background-color: #0000CD;
-}
 /* Design para mobiles. */
 @media screen and (max-width: 1300px) {
 	body, html, main, .flex-header, .flex-list, .flex-footer, .flex-social {
