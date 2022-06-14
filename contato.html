@@ -27,18 +27,28 @@
 				<img class="contact-item" id="img-contact" src="img/xls 2.2 diesel.jpg" alt="Foto do XLS 2.2 Diesel">
 				<form class="contact-item form-flex" onsubmit="Post(this)">
 					<div class="form-item">
-					<h2>Sobre Você</h2><br>
-					<input type="text" name="nome" id="name" class="contact-input" required placeholder="NOME*">
-					<input type="email" name="email" id="email" class="contact-input" required placeholder="EMAIL*">
-					<input type="text" name="cpf" id="cpf" class="contact-input" placeholder="CPF/CNPJ*">
-					<input type="text" name="sobrenome" id="surname" class="contact-input" required placeholder="SOBRENOME*">
-					<input type="tel" name="telefone" id="tel" class="contact-input" required placeholder="TELEFONE*">
-					<select name="contato" class="contact-input" required>
-						<option selected>COMO DESEJA SER CONTACTADO</option>
-						<option>TELEFONE</option>
-						<option>EMAIL</option>
-					</select>
-					<textarea class="contact-input" name="observacao" cols="30" rows="8" id="mensagem"></textarea>
+						<h2>Sobre Você</h2><br>
+						<input type="text" name="nome" id="name" class="contact-input" required placeholder="NOME*">
+						<input type="email" name="email" id="email" class="contact-input" required placeholder="EMAIL*">
+						<input type="text" name="cpf" id="cpf" class="contact-input" placeholder="CPF/CNPJ*">
+						<input type="text" name="sobrenome" id="surname" class="contact-input" required placeholder="SOBRENOME*">
+						<input type="tel" name="telefone" id="tel" class="contact-input" required placeholder="TELEFONE*">
+						<select name="contato" class="contact-input" required>
+							<option selected>COMO DESEJA SER CONTACTADO</option>
+							<option>TELEFONE</option>
+							<option>EMAIL</option>
+						</select>
+						<textarea class="contact-input" name="observacao" cols="30" rows="8" id="mensagem"></textarea>
+						<span id="statement">Os dados serão mantidos em nossa base de dados, somente enquanto for desejado por você. A 
+							qualquer momento, será possível editar ou remover tais dados. <a target="_blank" href="https://www.ford.com.br/politica-de-privacidade/">Termos e Condições</a></span>
+						<div class="consent-area">
+							<input type="checkbox" name="termos" id="termo" class="consent-input">
+							<span>Sim. Li e concordo com os termos.</span>
+						</div>
+						<div class="consent-area">
+							<input type="checkbox" name="novidades" class="consent-input">
+							<span>Sim. Também quero receber descontos e novidades.</span>
+						</div>
 					</div>
 					<button type="submit" class= "form-item" id="contact-button">Enviar</button>
 				</form>

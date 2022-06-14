@@ -107,7 +107,7 @@ nav a:hover {
 
 /* Design para mobiles. */
 @media screen and (max-width: 1300px) {
-	body, html, main, .flex-header, .flex-list, .flex-footer, .flex-social, div#compare {
+	body, html, main, .flex-header, .flex-list, .flex-footer, .flex-social, div#compare, .form-flex {
 		width: auto;
 	}
 	.flex-list {
@@ -131,5 +131,6 @@ nav a:hover {
 	#c-table tr {
 		display: flex;
 		flex-flow: column nowrap;
-	}	
+	}
+
 }

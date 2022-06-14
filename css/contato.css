@@ -12,18 +12,34 @@
 .form-flex{
 	display: flex;
 	flex-flow: column nowrap;
-}
-
-form input, form textarea {
-	display: block;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	width: 25%;
+	padding: 2rem;
 }
 .contact-input {
+	display: block;
 	width: 100%;
 	border: .05rem solid #DCDCDC;
 	border-radius: 1rem;
 	padding: .8rem;
-	margin: .2rem;
+	margin: .5rem 0;
 	box-shadow: .15rem .1rem .2rem #DCDCDC;
+}
+.consent-area, #statement {
+	font-size: 1rem;
+}
+#statement a {
+	color: #1351d8;
+}
+.consent-area {
+	display: flex;
+	flex-flow: row nowrap;
+	margin: .5rem 0 0;
+}
+.consent-input {
+	margin-right: .5rem;
 }
 #contact-button {
   width: 70%;	
